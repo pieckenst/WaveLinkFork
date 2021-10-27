@@ -1,6 +1,6 @@
 Wavelink
 ================
-Welcome to WaveLink's Documentation. WaveLink is a robust and powerful Lavalink wrapper for discord.py.
+Welcome to WaveLink's Documentation. WaveLink is a robust and powerful Lavalink wrapper for disnake.
 
 Support
 ---------------------------
@@ -62,7 +62,7 @@ A quick and easy bot example:
             await self.bot.wait_until_ready()
 
             # Initiate our nodes. For this example we will use one server.
-            # Region should be a discord.py guild.region e.g sydney or us_central (Though this is not technically required)
+            # Region should be a disnake guild.region e.g sydney or us_central (Though this is not technically required)
             await self.bot.wavelink.initiate_node(host='0.0.0.0',
                                                   port=2333,
                                                   rest_uri='http://0.0.0.0:2333',

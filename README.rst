@@ -10,7 +10,7 @@
 .. image:: https://img.shields.io/github/license/EvieePy/Wavelink.svg
     :target: LICENSE
 
-A robust and powerful Lavalink wrapper for `Discord.py <https://github.com/Rapptz/discord.py>`_!
+A robust and powerful Lavalink wrapper for `disnake <https://github.com/Rapptz/disnake>`_!
 
 Documentation
 ---------------------------
@@ -81,7 +81,7 @@ A quick and easy bot example:
             await self.bot.wait_until_ready()
 
             # Initiate our nodes. For this example we will use one server.
-            # Region should be a discord.py guild.region e.g sydney or us_central (Though this is not technically required)
+            # Region should be a disnake guild.region e.g sydney or us_central (Though this is not technically required)
             await self.bot.wavelink.initiate_node(host='127.0.0.1',
                                                   port=2333,
                                                   rest_uri='http://127.0.0.1:2333',
