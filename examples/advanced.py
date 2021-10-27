@@ -24,7 +24,7 @@ This example uses the following which must be installed prior to running:
 
     - disnake.py version >= 1.7.1 (pip install -U disnake.py)
     - Wavelink version >= 0.5.1 (pip install -U wavelink)
-    - menus version >= 1.0.0-a (pip install -U git+https://github.com/Rapptz/disnake-ext-menus.git)
+    - menus version >= 1.0.0-a (pip install -U git+https://github.com/EQUENOS/disnake-ext-menus.git)
     - Python 3.7+
 --------------------------------------------------------------------------------
 """
