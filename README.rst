@@ -10,7 +10,7 @@
 .. image:: https://img.shields.io/github/license/EvieePy/Wavelink.svg
     :target: LICENSE
 
-A robust and powerful Lavalink wrapper for `disnake <https://github.com/Rapptz/disnake>`_!
+A robust and powerful Lavalink wrapper for `disnake <https://github.com/EQUENOS/disnake>`_!
 
 Documentation
 ---------------------------
